@@ -5,7 +5,7 @@ services:
 
 
 before_install:
-  - docker build -t radhekrishna/docker-react -f dockerfile.dev .
+  - docker build -t home/radhekrishna/docker-react -f dockerfile.dev .
 
 
 scripts:
