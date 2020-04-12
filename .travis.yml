@@ -9,7 +9,7 @@ before_install:
 
 
 scripts:
-  - docker run -e CI=true home/radhekrishna/docker-react npm run test 
+  - docker run -e CI=true home/radhekrishna/docker-react npm run test -- --coverage
 
 
 deploy:
