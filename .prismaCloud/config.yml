@@ -1,17 +1,8 @@
-# Specify the template type. Valid values are as follows.
-# For Terraform: TF
-# For AWS CloudFormation: CFT
-# For Kubernetes: K8S
+
+# Prisma Cloud Tags
+# tags is an array of labels that enable you to organize your resources 
+# with these key/value pairs in Prisma Cloud
 				
-template_type: CFT
-				
-# If template_type value is CFT, set cft_parameters (optional)
-# variable_values is an array of name/value pairs, which identifies the 
-# template variables
-				
-cft_parameters:
-	variable_values:
-	   - name: KeyName
-		 value: 10
-	   - name: AMI
-		 value: ami-45785
+tags:
+    - Org:Engineering
+    - Team:Shift_Left
